@@ -31,3 +31,12 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
+
+.aside-left {
+  margin: 80px 60px;
+  width: 180px;
+}
+
+.archives {
+  margin-top: 80px;
+}
