@@ -59,12 +59,12 @@ ul {
   align-content: space-between;
   height: 850px;
   padding: 5px;
-  width: 60%;
+  width: 58%;
   counter-reset: items;
 }
 
 .article-img {
-  width: 398px;
+  width: 387px;
   height: 150px;
   margin: -20px -20px 10px -20px;
 }
@@ -102,6 +102,44 @@ ul {
 }
 
 .aside-right {
-  margin: 0 60px;
-  width: 180px;
+  margin: 30px 20px;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-flow: column;
+  align-self: center;
+  align-content: center;
+  padding: 25px;
+  background-color: gainsboro;
+}
+
+.email {
+  width: 200px;
+  height: 35px;
+  float: left;
+  border-radius: 5px 5px 0 0;
+  border: gray 1px solid;
+}
+
+.password {
+  width: 200px;
+  height: 35px;
+  float: left;
+  border-radius: 0 0 5px 5px;
+  border: gray 1px solid;
+  border-top: none;
+}
+
+.check {
+  margin: 10px 0 25px 25px;
+}
+
+.sign-in {
+  width: 200px;
+  height: 35px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  font-size: large;
+  border-radius: 5px 5px 5px 5px;
 }
