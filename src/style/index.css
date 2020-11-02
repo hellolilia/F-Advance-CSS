@@ -143,3 +143,11 @@ ul {
   font-size: large;
   border-radius: 5px 5px 5px 5px;
 }
+
+.footer {
+  background-color: gainsboro;
+  border-top: lightgray 2px solid;
+  text-align: center;
+  color: gray;
+  padding-bottom: 20px;
+}
