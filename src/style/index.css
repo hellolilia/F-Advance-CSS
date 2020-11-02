@@ -32,6 +32,12 @@ ul {
   align-items: center;
 }
 
+.content {
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+}
+
 .aside-left {
   margin: 35px 20px 40px 40px;
   width: 200px;
@@ -44,4 +50,42 @@ ul {
 
 .archives {
   padding: 20px;
+}
+
+.main {
+  margin: 20px 10px 0 10px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+  height: 850px;
+  padding: 5px;
+  width: 60%;
+  counter-reset: items;
+}
+
+.article-img {
+  width: 398px;
+  height: 150px;
+  margin: -20px -20px 10px -20px;
+}
+
+.article {
+  width: 48%;
+  position: relative;
+  margin: 10px 5px;
+  border: gainsboro 2px solid;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.article:nth-child(2n + 1) {
+  order: 0;
+}
+.article:nth-child(2n + 2) {
+  order: 1;
+}
+
+.aside-right {
+  margin: 0 60px;
+  width: 180px;
 }
