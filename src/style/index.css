@@ -33,10 +33,15 @@ ul {
 }
 
 .aside-left {
-  margin: 80px 60px;
-  width: 180px;
+  margin: 35px 20px 40px 40px;
+  width: 200px;
+}
+
+.about {
+  padding: 20px;
+  background-color: gainsboro;
 }
 
 .archives {
-  margin-top: 80px;
+  padding: 20px;
 }
